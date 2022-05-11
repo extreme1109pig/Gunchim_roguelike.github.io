@@ -148,10 +148,6 @@ function animate() {
     junbae.update()
 }
 
-window.onload = () => {
-    animate()
-}
-
 document.getElementById('startBtn').addEventListener('click', (e) => {
     flex.style.display = 'none'
     flex1.style.display = 'none'
@@ -231,3 +227,7 @@ addEventListener('click', (e) => {
         }
     }
 })
+
+window.onload = () => {
+    animate()
+}
