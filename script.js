@@ -148,7 +148,9 @@ function animate() {
     junbae.update()
 }
 
-animate()
+window.onload = () => {
+    animate()
+}
 
 document.getElementById('startBtn').addEventListener('click', (e) => {
     flex.style.display = 'none'
