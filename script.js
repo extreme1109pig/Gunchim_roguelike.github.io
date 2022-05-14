@@ -224,10 +224,9 @@ addEventListener('click', (e) => {
             junbae.start = true
             console.log(junbae.start, junbae.drawing, junbae.movement)
             TF.style.display = 'none'
+            window.onload = () => {
+                animate()
+            }
         }
     }
 })
-
-window.onload = () => {
-    animate()
-}
